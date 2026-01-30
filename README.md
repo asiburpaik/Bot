@@ -16,12 +16,14 @@ Assalamualaikum Everyone!
 
 _____
 
-[![License](https://img.shields.io/github/license/shahadat-sahu/SHAHADAT-CHAT-BOT)](https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/shahadat-sahu/SHAHADAT-CHAT-BOT)](https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT/issues)
-[![GitHub forks](https://img.shields.io/github/forks/shahadat-sahu/SHAHADAT-CHAT-BOT)](https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT/network)
-[![GitHub stars](https://img.shields.io/github/stars/shahadat-sahu/SHAHADAT-CHAT-BOT)](https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT/stargazers)
-[![Last commit](https://img.shields.io/github/last-commit/shahadat-sahu/SHAHADAT-CHAT-BOT)](https://github.com/shahadat-sahu/SHAHADAT-CHAT-BOT/commits)
-_______
+![Forks](https://img.shields.io/github/forks/shahadat-sahu/SHAHADAT-CHAT-BOT?style=flat&logo=github&label=Forks&color=blueviolet)
+![Stars](https://img.shields.io/github/stars/shahadat-sahu/SHAHADAT-CHAT-BOT?style=flat&logo=github&label=Stars&color=gold)
+![Last Commit](https://img.shields.io/github/last-commit/shahadat-sahu/SHAHADAT-CHAT-BOT?style=flat&label=Last%20Commit&color=teal)
+![Repo Size](https://img.shields.io/github/repo-size/shahadat-sahu/SHAHADAT-CHAT-BOT?style=flat&label=Repo%20Size&color=forestgreen)
+![License](https://img.shields.io/github/license/shahadat-sahu/SHAHADAT-CHAT-BOT?style=flat&label=License&color=orange)
+![Node Version](https://img.shields.io/badge/Node-18+-lightgrey?style=flat&logo=node.js&color=brightgreen)
+
+_____
 
 ### <br>   ❖ DEPLOY_WORKFLOWS ❖
 ```
@@ -67,9 +69,10 @@ ___
 
 ## HOW TO RUN THIS CHAT BOT 🚀
 
-[![Watch the Video](https://i.imgur.com/EKtftdm.png)](https://youtu.be/blg0O7IgcrA?si=vpz42AK06uIblLN9)
+[![Watch Tutorial](https://img.shields.io/badge/%20%20%20%20%20WATCH%20FULL%20TUTORIAL%20%20%20%20%20-YOUTUBE-red?logo=youtube&logoColor=white&style=for-the-badge)](https://youtu.be/blg0O7IgcrA?si=vpz42AK06uIblLN9)
 
 Click the image above to watch the step-by-step tutorial on YouTube.
+
 
 
 ## Steps to Run the Bot
@@ -103,79 +106,32 @@ Play 20+ fun games directly in messenger, no installation hassle!
 Surprise your friends with hundreds of fun commands!  
 ___
 
-<div style="max-width: 500px; margin: auto; font-family: Arial, sans-serif; line-height: 1.6; color: #333;">
+## 🚀 Deployments
 
-  <h2 style="text-align: center; margin-bottom: 30px;">How to Use These Platforms</h2>
-
-  <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-    <img src="https://img.icons8.com/color/48/000000/replit.png" alt="Replit" style="margin-right: 20px; flex-shrink: 0;" />
-    <div>
-      <h3 style="margin: 0 0 8px;">Replit</h3>
-      <p style="margin: 0;">
-        Replit is an online coding environment that lets you write, run, and test code directly from your browser without any setup.  
-        Simply sign up for a free account, create a new project (called a “Repl”), and start coding in languages like JavaScript, Python, C++, and many more.  
-        It’s perfect for quick prototyping, learning programming, or collaborating with others in real-time.  
-        You can also host simple web apps and share your projects with a public URL instantly.
-      </p>
-    </div>
-  </div>
-
-  <div style="display: flex; align-items: flex-start; margin-bottom: 30px;">
-    <img src="https://img.icons8.com/fluency/48/000000/cloud.png" alt="Render" style="margin-right: 20px; flex-shrink: 0;" />
-    <div>
-      <h3 style="margin: 0 0 8px;">Render</h3>
-      <p style="margin: 0;">
-        Render is a cloud hosting platform that allows you to deploy websites, APIs, and applications easily without worrying about server management.  
-        After developing your app locally or on Replit, you can push your code to Render for continuous deployment.  
-        It supports popular frameworks, automatic SSL, custom domains, and background workers.  
-        This platform is ideal for developers who want hassle-free hosting with scalable resources.
-      </p>
-    </div>
-  </div>
-
-  <div style="display: flex; align-items: flex-start;">
-    <img src="https://img.icons8.com/fluency/48/000000/github.png" alt="GitHub" style="margin-right: 20px; flex-shrink: 0;" />
-    <div>
-      <h3 style="margin: 0 0 8px;">GitHub</h3>
-      <p style="margin: 0;">
-        GitHub is a web-based platform for version control and collaborative code management using Git.  
-        It lets you store your code repositories securely, track changes, and collaborate with other developers through pull requests and issues.  
-        GitHub also supports project documentation via README files and wikis, and it integrates with many CI/CD tools to automate workflows.  
-        Use GitHub to manage your projects efficiently and share your code with the developer community.
-      </p>
-    </div>
-  </div>
-
-</div>
-
-
-
-
+| **Status** | **Action** |
+|-----------|------------|
+| ![Replit](https://img.shields.io/badge/Replit-F26D00?style=for-the-badge&logo=replit&logoColor=white) | [![Deploy](https://img.shields.io/badge/DEPLOY-CLICK%20HERE-blue?style=for-the-badge)](https://replit.com) |
+| ![Render](https://img.shields.io/badge/Render-3FE0C5?style=for-the-badge&logo=render&logoColor=black) | [![Deploy](https://img.shields.io/badge/DEPLOY-CLICK%20HERE-blue?style=for-the-badge)](https://render.com) |
+| ![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white) | [![Deploy](https://img.shields.io/badge/DEPLOY-CLICK%20HERE-blue?style=for-the-badge)](https://railway.app) |
 ---
 
 
+## 👨‍💻 ABOUT THE DEVELOPER
 
+**Name:** `SHAHADAT ISLAM`  
+**Nice Name:** `SA HU`  
+**Profession:** `STUDENT & CHATBOT DEVELOPER`  
+**Location:** `KHAGRACHARI, BANGLADESH`
 
-## 👨‍💻 **ABOUT THE DEVELOPER**  
-  
-**Name:** **`SHAHADAT ISLAM`**  
-**Nice Name:** **`SA HU`**  
-**Profession:** **`STUDENT & CHATBOT DEVELOPER`**  
-**Location:** **`KHAGRACHARI, BANGLADESH`**  
+#### 📞 CONTACT
+- **WhatsApp:** [WhatsApp Me](https://wa.me/+8801882333052)
+- **Facebook:** [Profile](https://facebook.com/100044713412032)
+- **Messenger:** [Message Me](https://m.me/100044713412032)
 
-### 📞 **CONTACT INFORMATION**  
-- **WhatsApp:** **[01882 333052](https://wa.me/+8801882333052)**  
-- **Facebook:** **[Facebook ID](https://facebook.com/100001039692046)**  
-- **Messenger:** **[Message Me](https://m.me/100001039692046)**  
-
-### 🚀 **DEVELOPMENT APPROACH**  
-- 💻 **Copy-paste techniques with customizations**  
-- 🤝 **Collaborative development with friends**  
-- 🤖 **AI-powered using ChatGPT and other advanced tools**  
-
-
-
-
+#### 🚀 APPROACH
+- 💻 Copy-paste techniques with deep customizations  
+- 🤝 Collaborative development with friends  
+- 🤖 AI-powered workflow using ChatGPT & modern tools
 ---
 
 
@@ -190,7 +146,7 @@ Please do not disturb the admin unless you have a special need. Thank you!
   <a href="https://wa.me/+8801882333052?text=Assalamualaikum%20Admin%20SHAHADAT%20SAHU%20Need%20Help%20Please%20Brother%20🫶">
     <img alt="WhatsApp" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
   </a>
-  <a href="https://m.me/100001039692046">
+  <a href="https://m.me/100044713412032">
     <img alt="Messenger" src="https://img.shields.io/badge/Messenger-00B2FF?style=for-the-badge&logo=messenger&logoColor=white">
   </a>
 </p>
@@ -204,19 +160,19 @@ Please do not disturb the admin unless you have a special need. Thank you!
 - 🛡️ **Sujon (Admin Cyber Bot Team)**
 - 🎓 **Grandpa EJ (Owner Grandpa Academy)** 
 
----
+__________
 
 💖 **Thank You For Choosing 𝗦𝗵𝗮𝗵𝗮𝗱𝗮𝘁 𝗖𝗵𝗮𝘁 𝗕𝗼𝘁!**  
 🗓️ *Release Date:* `11/08/2025 at 02:00`  
 ⭐ **Please don't forget to give a star after forking! It really helps!**
 
----
+
 
 <p align="center">
   <a href="https://github.com/shahadat-sahu"><img src="https://img.icons8.com/fluency/48/000000/github.png" alt="GitHub"></a>
   <a href="https://wa.me/+8801882333052"><img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp"></a>
-  <a href="https://facebook.com/100001039692046"><img src="https://img.icons8.com/fluency/48/000000/facebook.png" alt="Facebook"></a>
-  <a href="https://t.me/+7RqN73zA6aBiY2U1"><img src="https://img.icons8.com/color/48/000000/telegram-app.png" alt="Telegram"></a>
+  <a href="https://facebook.com/100044713412032"><img src="https://img.icons8.com/fluency/48/000000/facebook.png" alt="Facebook"></a>
+  <a href="https://t.me/cyber_bot01"><img src="https://img.icons8.com/color/48/000000/telegram-app.png" alt="Telegram"></a>
   <a href="https://youtube.com/@scb-community"><img src="https://img.icons8.com/color/48/000000/youtube-play.png" alt="YouTube"></a>
 </p>
 
