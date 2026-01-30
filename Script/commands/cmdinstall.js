@@ -7,7 +7,7 @@ module.exports.config = {
   name: "install",
   version: "2.0.0",
   hasPermssion: 2,
-  credits: "SHAHADAT SAHU", //please don't change credit
+  credits: "SHAHADAT SAHU",
   description: "Create/Delete/Load modules",
   commandCategory: "System",
   usages: "[file.js code/link] / [del file.js]",
@@ -19,7 +19,7 @@ const loadModule = (nameModule) => {
     const p = __dirname + "/" + nameModule + ".js";
     delete require.cache[require.resolve(p)];
     const c = require(p);
-    if (!c.config || !c.run) throw new Error("Invalid Module");
+    if (!c.config || !c.run) throw new Error();
     global.client.commands.delete(c.config.name);
     global.client.eventRegistered = global.client.eventRegistered.filter(e => e != c.config.name);
     global.client.commands.set(c.config.name, c);
@@ -35,23 +35,17 @@ const unloadModule = (nameModule) => {
 };
 
 module.exports.run = async ({ api, event, args }) => {
-  const { threadID, messageID, senderID } = event;
+  const { threadID, messageID } = event;
 
-  if (!["100001039692046", "100089047474463", "61575698041722"].includes(senderID)) {
-    return api.sendMessage("Only Boss SAHU us this cmd....", threadID, messageID);
-  }
-
-  if (!args[0]) {
-    return api.sendMessage("⚠️ Usage: install file.js code/link", threadID, messageID);
-  }
+  if (!args[0]) return api.sendMessage("⚠️ Usage: install file.js code/link", threadID, messageID);
 
   if (args[0] === "del") {
     const file = args[1];
     if (!file || !file.endsWith(".js")) return api.sendMessage("Invalid file.....", threadID, messageID);
-    const filePath = path.join(__dirname, file);
-    if (!fs.existsSync(filePath)) return api.sendMessage("File not found.....", threadID, messageID);
+    const fp = path.join(__dirname, file);
+    if (!fs.existsSync(fp)) return api.sendMessage("File not found.....", threadID, messageID);
     unloadModule(file.replace(".js", ""));
-    fs.unlinkSync(filePath);
+    fs.unlinkSync(fp);
     return api.sendMessage("🗑️ Deleted + Unloaded: " + file, threadID, messageID);
   }
 
@@ -59,8 +53,8 @@ module.exports.run = async ({ api, event, args }) => {
   const content = args.slice(1).join(" ");
   if (!fileName.endsWith(".js")) return api.sendMessage("Only .js allowed...⚠️", threadID, messageID);
 
-  const fullPath = path.join(__dirname, fileName);
-  if (fs.existsSync(fullPath)) return api.sendMessage("File already exists...⚠️", threadID, messageID);
+  const fp = path.join(__dirname, fileName);
+  if (fs.existsSync(fp)) return api.sendMessage("File already exists...⚠️", threadID, messageID);
 
   let code;
   if (/^(http|https):\/\//.test(content)) {
@@ -80,11 +74,10 @@ module.exports.run = async ({ api, event, args }) => {
     return api.sendMessage("❌ Syntax Error: " + err.message, threadID, messageID);
   }
 
-  fs.writeFileSync(fullPath, code, "utf8");
+  fs.writeFileSync(fp, code, "utf8");
 
   const name = fileName.replace(".js", "");
   const ok = loadModule(name);
-
   if (!ok) return api.sendMessage("⚠️ File created but failed to load!", threadID, messageID);
 
   return api.sendMessage("✅ Successfully Created + Loaded: " + fileName, threadID, messageID);
